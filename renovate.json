@@ -1,5 +1,15 @@
 {
   "extends": [
-    "config:base"
-  ]
+    "config:base",
+    "group:all",
+    "schedule:daily"
+  ],
+  "assigneesFromCodeOwners": true,
+  "assigneesSampleSize": 1,
+  "separateMinorPatch": true,
+  "packageRules": [
+  ],
+  "encrypted": {
+    "npmToken": "todo"
+  }
 }
