@@ -1,0 +1,32 @@
+{
+  "name": "Testing-Renovate",
+  "version": "1.0.0",
+  "description": "A dummy app containing outdated dependencies and unit tests to try out Renovate for automatic dependency updates",
+  "main": "build/src/app.js",
+  "scripts": {
+    "start": "node ./build/src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc --watch ",
+    "lint": "tslint \"src/**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simon-HL/Testing-Renovate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simon-HL/Testing-Renovate/issues"
+  },
+  "homepage": "https://github.com/Simon-HL/Testing-Renovate#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
