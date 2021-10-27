@@ -23,7 +23,7 @@
   "homepage": "https://github.com/Simon-HL/Testing-Renovate#readme",
   "devDependencies": {
     "@types/express": "4.17.13",
-    "tslint": "5.12.1",
+    "tslint": "5.20.1",
     "typescript": "3.9.10"
   },
   "dependencies": {
