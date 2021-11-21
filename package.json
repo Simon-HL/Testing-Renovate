@@ -27,7 +27,8 @@
     "typescript": "3.9.10"
   },
   "dependencies": {
-    "dayjs": "^1.5.6",
-    "express": "^4.16.4"
+    "dayjs": "^1.10.7",
+    "express": "^4.16.4",
+    "testing-renovate-private-dependency": "github:Simon-HL/Testing-Renovation-PrivateDependency"
   }
 }
