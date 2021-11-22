@@ -29,6 +29,6 @@
   "dependencies": {
     "dayjs": "^1.10.7",
     "express": "^4.16.4",
-    "testing-renovate-private-dependency": "github:Simon-HL/Testing-Renovation-PrivateDependency"
+    "testing-renovate-private-dependency": "github:Simon-HL/Testing-Renovation-PrivateDependency#2.1.1"
   }
 }
