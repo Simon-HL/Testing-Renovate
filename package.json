@@ -30,10 +30,10 @@
     "chalk": "4.0.0",
     "dayjs": "1.10.7",
     "express": "4.16.4",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "nodemailer": "6.6.5",
     "testing-renovate-private-dependency": "github:Simon-HL/Testing-Renovation-PrivateDependency#2.1.1",
     "validator": "12.2.0",
-    "yup": "0.32.10"
+    "yup": "0.32.11"
   }
 }
