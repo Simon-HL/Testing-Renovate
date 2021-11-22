@@ -8,9 +8,5 @@
   "assigneesSampleSize": 1,
   "separateMinorPatch": true,
   "packageRules": [
-    {
-      "matchDatasources": ["github-tags"],
-      "matchPackageNames": ["testing-renovate-private-dependency"]
-    }
   ]
 }
