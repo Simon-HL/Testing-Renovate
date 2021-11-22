@@ -8,8 +8,5 @@
   "assigneesSampleSize": 1,
   "separateMinorPatch": true,
   "packageRules": [
-    {
-      "matchDatasources": ["npm", "github-tags", "docker"]
-    }
   ]
 }
