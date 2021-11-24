@@ -7,6 +7,9 @@
   "assigneesFromCodeOwners": true,
   "assigneesSampleSize": 1,
   "separateMinorPatch": true,
+  "git-submodules": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchDatasources": ["git-tags", "github-tags"],
