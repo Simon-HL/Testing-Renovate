@@ -10,7 +10,7 @@
   "packageRules": [
     {
       "matchDatasources": ["git-tags", "github-tags"],
-      "packagePatterns": ["*"],
+      "matchPackagePatterns": ["*"],
       "enabled": true
     }
   ]
