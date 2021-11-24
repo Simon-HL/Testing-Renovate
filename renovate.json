@@ -9,9 +9,8 @@
   "separateMinorPatch": true,
   "packageRules": [
     {
-      "matchManagers": ["npm"],
       "matchDatasources": ["git-tags", "github-tags"],
-      "matchPackageNames": ["testing-renovate-private-dependency"],
+      "matchPackagePatterns": ["*"],
       "enabled": true
     }
   ]
