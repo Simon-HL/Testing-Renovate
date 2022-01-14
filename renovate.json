@@ -1,12 +1,10 @@
 {
   "extends": [
     "config:base",
-    "group:allNonMajor"
+    "group:allNonMajor",
+    "schedule:daily"
   ],
   "timezone": "Europe/Oslo",
-  "schedule": [
-    "every day"
-  ],
   "separateMinorPatch": true,
   "labels": ["dependencies"],
   "reviewers": ["Simon-HL"],
