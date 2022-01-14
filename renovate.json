@@ -1,20 +1,22 @@
 {
   "extends": [
     "config:base",
-    "group:all",
-    "schedule:daily"
+    "group:allNonMajor"
   ],
-  "assigneesFromCodeOwners": true,
-  "assigneesSampleSize": 1,
+  "timezone": "Europe/Oslo",
+  "schedule": [
+    "every day"
+  ],
   "separateMinorPatch": true,
-  "git-submodules": {
-    "enabled": true
-  },
-  "packageRules": [
+  "labels": ["dependencies"],
+  "reviewers": ["Simon-HL"],
+  "hostRules": [
     {
-      "matchDatasources": ["git-tags", "github-tags"],
-      "matchPackagePatterns": ["*"],
-      "enabled": true
+      "matchHost": "https://npm.pkg.github.com/",
+      "hostType": "npm",
+      "encrypted": {
+        "token": "wcFMA/xDdHCJBTolAQ//YC7ICn7R3yhK0eZsC0XBN75+n6skmRaYG3Lv4HQTzDLZiA5c3/mkfdccGvrBm03nNrOJ/Ruf9jH/OwMqCY8gCmw70oBVodq72phdhkZ3d+qzYwa3gxpAE9PTVHrlgLNVOQWMUM6MVmJXaMNZwMrPNCeApdv8AN1ojFHwA2u/qzU0S0k9zGpt/8Qs3t08sek3ub3q9kR3XAJ9vN8KRZOIiNupCyntgCeDHPJMT9fn2pUh/7ASo2bZ0XqT1DFRXfU3s/Q/wTnFylHVibvKDhNIjw2AaUqqikcALTzPrQR8zpd0Dy0WD214MQqIKqIBbdlpSaInHYbbwlh1lOSr3Zg6CKvvkXRopbS10TbxEB/5vnASu29Fq6sgEcdEYl2kzKRoWampMMHGW2hgkq0PfVSZvEh4nORJnbOEJP6E8VXGD3AUvBGkA9IAkJIC3jt9wSvgO+s8ELGmA1K1l0kG5dZ42PRfpjhWCXgLmY0+50ck5nBREA81gvFipkSjSChusHdKNL+2TdE4PBOYMTFGCq9FS42VYXgqM4s9/jrO/SVbcIh6rL+dwHpQ2xrGsob8OqmyVRwKAlxX5f4BVcCNr36mUfXBS6TAZ7gZDsGrAni67amdhimKAybUT0d75VaQ4o+DUreUKcKhoGi1Sjx57HmrOXjmJJfHa0vr+FKPvJO2dx3SdwHtcZ1Yo9zCK8kEULAglRxmlwRVijCjAFl1U/4GkpvCx+b2TLZfvzhtEV1APu7j32jrwPZR6Kd4QATX79gNHii3jeJGC8hlhlb6xP2K+ySvEo5Agmf7mlEaMLxmc5CGXu6vnn7BgyxuVrqE9An2XSX3GVWyZELW"
+      }
     }
   ]
 }
