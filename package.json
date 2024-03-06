@@ -35,6 +35,6 @@
     "nodemailer": "6.7.1",
     "testing-renovate-private-dependency": "github:Simon-HL/Testing-Renovation-PrivateDependency#2.1.1",
     "validator": "13.7.0",
-    "yup": "0.32.11"
+    "yup": "1.4.0"
   }
 }
